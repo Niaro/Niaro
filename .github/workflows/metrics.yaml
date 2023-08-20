@@ -11,7 +11,7 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     permissions:
-        contents: write
+      contents: write
     steps:
       - uses: lowlighter/metrics@latest
 
@@ -39,3 +39,8 @@ jobs:
 
           # The lines of code plugin displays the number of lines of code you have added and removed across all of your repositories.
           plugin_lines: yes
+
+          plugin_achievements: yes
+
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
