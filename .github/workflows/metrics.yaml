@@ -21,7 +21,6 @@ jobs:
           # Options
           template: classic
           config_gemoji: yes # use additional non-unicode emoji
-          config_display: columns
           retries: 3
           retries_delay: 300
           use_prebuilt_image: yes # faster execution
@@ -44,6 +43,7 @@ jobs:
 
           # The lines of code plugin displays the number of lines of code you have added and removed across all of your repositories.
           plugin_lines: yes
+          plugin_lines_history_limit: 10
 
           plugin_achievements: yes
 
@@ -52,3 +52,7 @@ jobs:
 
           plugin_reactions: yes
           plugin_reactions_details: percentage
+          plugin_reactions_limit: 1000
+
+          plugin_habits: yes
+          plugin_habits_facts: yes
