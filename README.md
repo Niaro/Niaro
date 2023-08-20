@@ -6,7 +6,4 @@ I'm a seasoned Software Engineer and Solutions Architect with a strong passion f
 
 [![My Skills](https://skillicons.dev/icons?i=angular,rxjs,nestjs,nodejs,ts,js,sass,jest,cs,dotnet,mongodb,redis,gcp,firebase,cloudflare,workers,githubactions,vscode,docker&perline=9)](https://skillicons.dev)
 
-### 🔥 My Stats:
-
-[![GitHub
-Streak](https://streak-stats.demolab.com?user=Niaro&theme=dracula&border_radius=10)](https://git.io/streak-stats)
+![Metrics](/github-metrics.svg)
