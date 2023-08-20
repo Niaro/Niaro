@@ -28,8 +28,8 @@ jobs:
           # base
           # base: header, activity, metadata
           base_indepth: yes
-          repositories_affiliations: owner, collaborator, organization_member
-          # repositories_affiliations: ''
+          # repositories_affiliations: owner, collaborator, organization_member
+          repositories_affiliations: ''
           commits_authoring: niaronir@gmail.com, george@bridgerpay.com
 
           # The languages plugin displays which programming languages you use the most across all your repositories.
