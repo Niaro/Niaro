@@ -30,9 +30,9 @@ jobs:
           base_indepth: yes
           repositories_forks: yes
           # repositories_affiliations: owner, collaborator, organization_member
-          repositories_skipped: rent, prorent, bridgerpay
+          repositories_skipped: rent, prorent, bridgerpay, tabletkin, mindfor
           repositories_affiliations: ''
-          commits_authoring: Niaro, George Kayzer, George Evstigneev, niaronir@gmail.com, george@bridgerpay.com
+          commits_authoring: Niaro, George Kayzer, George Evstigneev, niaronir@gmail.com, george@bridgerpay.com, niaro@users.noreply.github.com
 
           # The languages plugin displays which programming languages you use the most across all your repositories.
           plugin_languages: yes
@@ -47,7 +47,7 @@ jobs:
           # plugin_languages_skipped: my-test-repo                       # List of repositories to skip
           # plugin_languages_colors: "0:orange, javascript:#ff0000, ..." # Make most used languages orange and JavaScript red
           plugin_languages_details: bytes-size, percentage # Additionally display total bytes size and percentage
-          plugin_languages_threshold: 2% # Hides all languages less than 2%
+          # plugin_languages_threshold: 2% # Hides all languages less than 2%
 
           # The lines of code plugin displays the number of lines of code you have added and removed across all of your repositories.
           plugin_lines: yes
