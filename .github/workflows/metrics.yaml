@@ -13,7 +13,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@v3.33
+      - uses: lowlighter/metrics@master
 
         with:
           token: ${{ secrets.METRICS_TOKEN }}
@@ -35,11 +35,17 @@ jobs:
           # The languages plugin displays which programming languages you use the most across all your repositories.
           plugin_languages: yes
           plugin_languages_indepth: yes
+          plugin_languages_sections: most-used, recently-used
+          plugin_languages_analysis_timeout: 60
+          plugin_languages_analysis_timeout_repositories: 0
+          plugin_languages_recent_days: 0
+          plugin_languages_recent_load: 1000
+          plugin_languages_skipped: TranslatableReader
           # plugin_languages_ignored: html, css, javascript               # List of languages to ignore
           # plugin_languages_skipped: my-test-repo                       # List of repositories to skip
           # plugin_languages_colors: "0:orange, javascript:#ff0000, ..." # Make most used languages orange and JavaScript red
           plugin_languages_details: bytes-size, percentage # Additionally display total bytes size and percentage
-          # plugin_languages_threshold: 2%                               # Hides all languages less than 2%
+          plugin_languages_threshold: 2% # Hides all languages less than 2%
 
           # The lines of code plugin displays the number of lines of code you have added and removed across all of your repositories.
           plugin_lines: yes
@@ -56,3 +62,8 @@ jobs:
 
           plugin_habits: yes
           plugin_habits_facts: yes
+
+          plugin_followup: yes
+          plugin_followup_sections: repositories, user
+          plugin_followup_indepth: yes
+          plugin_followup_archived: yes
