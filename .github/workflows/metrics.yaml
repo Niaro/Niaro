@@ -24,6 +24,7 @@ jobs:
           retries: 3
           retries_delay: 300
           use_prebuilt_image: yes # faster execution
+          config_display: large
 
           # base
           # base: header, activity, metadata
