@@ -30,7 +30,7 @@ jobs:
           base_indepth: yes
           repositories_forks: yes
           # repositories_affiliations: owner, collaborator, organization_member
-          repositories_skipped: rent
+          repositories_skipped: rent, prorent, bridgerpay
           repositories_affiliations: ''
           commits_authoring: Niaro, George Kayzer, George Evstigneev, niaronir@gmail.com, george@bridgerpay.com
 
