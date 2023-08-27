@@ -36,7 +36,7 @@ jobs:
           # repositories_affiliations: owner, collaborator, organization_member
           # repositories_skipped: rent, prorent, prorent/rent, bridgerpay, bridgerpay/cashier, tabletkin,
           # mindfor
-          # repositories_skipped: BRIDGERPAY/cashier
+          repositories_skipped: rent, prorent, tabletkin, mindfor
           repositories_affiliations: ''
           # commits_authoring: Niaro, George Kayzer, George Evstigneev, niaronir@gmail.com, george@bridgerpay.com, niaro@users.noreply.github.com
 
