@@ -6,7 +6,5 @@ I'm a seasoned Software Engineer and Solutions Architect with a strong passion f
 
 [![My Skills](https://skillicons.dev/icons?i=angular,rxjs,nestjs,nodejs,ts,js,sass,jest,cs,dotnet,mongodb,redis,gcp,firebase,cloudflare,workers,githubactions,vscode,docker&perline=9)](https://skillicons.dev)
 
-[![George's GitHub stats](https://github-readme-stats.vercel.app/api?username=niaro)](https://github.com/niaro/github-readme-stats)
-
 ### 📈 GitHub Stats:
 ![Metrics](/github-metrics.svg)
