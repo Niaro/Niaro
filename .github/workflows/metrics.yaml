@@ -38,7 +38,7 @@ jobs:
           # mindfor
           # repositories_skipped: rent, prorent, tabletkin, mindfor
           # repositories_affiliations: ''
-          commits_authoring: Niaro, George Kayzer, George Evstigneev, niaronir@gmail.com, george@bridgerpay.com, niaro@users.noreply.github.com
+          commits_authoring: niaronir@gmail.com, george@bridgerpay.com, ge@pro.rent, niaro@users.noreply.github.com
 
           # The languages plugin displays which programming languages you use the most across all your repositories.
           plugin_languages: yes
