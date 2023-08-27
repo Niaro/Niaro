@@ -32,7 +32,7 @@ jobs:
 
           # base
           # base: header, activity, metadata
-          base_indepth: no
+          base_indepth: yes
           # repositories_forks: yes
           # repositories_skipped: rent, prorent, prorent/rent, bridgerpay, bridgerpay/cashier, tabletkin,
           # mindfor
