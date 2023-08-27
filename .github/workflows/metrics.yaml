@@ -36,7 +36,7 @@ jobs:
           # repositories_forks: yes
           # repositories_skipped: rent, prorent, prorent/rent, bridgerpay, bridgerpay/cashier, tabletkin,
           # mindfor
-          repositories_skipped: rent, prorent, tabletkin, mindfor
+          repositories_skipped: rent, prorent, tabletkin, mindfor, cashier, cashier-ng
           repositories_affiliations: ''
           commits_authoring: niaronir@gmail.com, george@bridgerpay.com, ge@pro.rent, niaro@users.noreply.github.com
 
@@ -51,7 +51,7 @@ jobs:
           # plugin_languages_ignored: html, css, javascript               # List of languages to ignore
           # plugin_languages_skipped: my-test-repo                       # List of repositories to skip
           # plugin_languages_colors: "0:orange, javascript:#ff0000, ..." # Make most used languages orange and JavaScript red
-          plugin_languages_details: bytes-size, percentage # Additionally display total bytes size and percentage
+          plugin_languages_details: bytes-size, percentage, lines # Additionally display total bytes size and percentage
           plugin_languages_threshold: 2% # Hides all languages less than 2%
 
           # The lines of code plugin displays the number of lines of code you have added and removed across all of your repositories.
@@ -67,13 +67,6 @@ jobs:
           plugin_reactions: yes
           plugin_reactions_details: percentage, count
           plugin_reactions_limit: 1000
-
-          plugin_habits: yes
-          plugin_habits_facts: yes
-          plugin_habits_from: 1000
-          plugin_habits_days: 30
-          # plugin_habits_charts: yes
-          # plugin_habits_charts_type: graph
 
           plugin_followup: yes
           plugin_followup_sections: repositories, user
