@@ -31,7 +31,7 @@ jobs:
 
           # base
           # base: header, activity, metadata
-          base_indepth: yes
+          base_indepth: no
           repositories_forks: yes
           # repositories_affiliations: owner, collaborator, organization_member
           # repositories_skipped: rent, prorent, prorent/rent, bridgerpay, bridgerpay/cashier, tabletkin,
@@ -42,7 +42,7 @@ jobs:
 
           # The languages plugin displays which programming languages you use the most across all your repositories.
           plugin_languages: yes
-          plugin_languages_indepth: yes
+          plugin_languages_indepth: no
           plugin_languages_sections: most-used, recently-used
           plugin_languages_analysis_timeout: 60
           plugin_languages_analysis_timeout_repositories: 0
@@ -78,5 +78,5 @@ jobs:
 
           plugin_followup: yes
           plugin_followup_sections: repositories, user
-          plugin_followup_indepth: yes
+          plugin_followup_indepth: no
           plugin_followup_archived: yes
