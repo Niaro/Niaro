@@ -21,9 +21,11 @@ jobs:
           # Options
           template: classic
           config_gemoji: yes # use additional non-unicode emoji
-          config_octicons: yes # use github octicons
+          config_octicon: yes # use github octicons
           retries: 3
           retries_delay: 300
+          retries_output_action: 5
+          retries_delay_output_action: 120
           use_prebuilt_image: yes # faster execution
           config_display: large
 
@@ -32,7 +34,9 @@ jobs:
           base_indepth: yes
           repositories_forks: yes
           # repositories_affiliations: owner, collaborator, organization_member
-          # repositories_skipped: rent, prorent, prorent/rent, bridgerpay, bridgerpay/cashier, tabletkin, mindfor
+          # repositories_skipped: rent, prorent, prorent/rent, bridgerpay, bridgerpay/cashier, tabletkin,
+          # mindfor
+          repositories_skipped: BRIDGERPAY/cashier
           repositories_affiliations: ''
           # commits_authoring: Niaro, George Kayzer, George Evstigneev, niaronir@gmail.com, george@bridgerpay.com, niaro@users.noreply.github.com
 
