@@ -33,11 +33,11 @@ jobs:
           # base: header, activity, metadata
           base_indepth: no
           # repositories_forks: yes
-          # repositories_affiliations: owner, collaborator, organization_member
+          repositories_affiliations: owner, collaborator, organization_member
           # repositories_skipped: rent, prorent, prorent/rent, bridgerpay, bridgerpay/cashier, tabletkin,
           # mindfor
           # repositories_skipped: rent, prorent, tabletkin, mindfor
-          repositories_affiliations: ''
+          # repositories_affiliations: ''
           commits_authoring: Niaro, George Kayzer, George Evstigneev, niaronir@gmail.com, george@bridgerpay.com, niaro@users.noreply.github.com
 
           # The languages plugin displays which programming languages you use the most across all your repositories.
@@ -70,7 +70,7 @@ jobs:
           plugin_reactions_limit: 1000
 
           plugin_habits: yes
-          plugin_habits_facts: yes
+          # plugin_habits_facts: yes
           plugin_habits_from: 1000
           plugin_habits_days: 30
           plugin_habits_charts: yes
