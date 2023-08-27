@@ -33,7 +33,7 @@ jobs:
           # base: header, activity, metadata
           base_indepth: no
           # repositories_forks: yes
-          # repositories_affiliations: owner, collaborator, organization_member
+          repositories_affiliations: owner
           # repositories_skipped: rent, prorent, prorent/rent, bridgerpay, bridgerpay/cashier, tabletkin,
           # mindfor
           # repositories_skipped: rent, prorent, tabletkin, mindfor
